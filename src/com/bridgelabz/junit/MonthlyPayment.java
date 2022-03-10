@@ -15,7 +15,7 @@ public class MonthlyPayment {
         double Y = sc.nextDouble();
         double n = 12 * Y;
         double monthlyPayment = (principalAmount * r) / (1 - Math.pow(1 + r, -n));
-        
+
         System.out.println("Your Monthly Payment is :" + monthlyPayment);
         sc.close();
     }
